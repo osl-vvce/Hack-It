@@ -20,3 +20,11 @@
         6)Modulus operation
     
 
+### 3. Novice (Know coding but not Git  and GitHub & 3rd year):
+  #### Problem statement: Create a landing page
+        1)Syntax and heading
+        2)Add background image
+        3)Add content
+        4)make button
+
+
