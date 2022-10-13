@@ -28,3 +28,20 @@
         4)make button
 
 
+### 4. Intermediate(Working in a domain):
+    
+       -Write a code of your choice in any language and make a pull request.
+
+
+
+### After making your 1st PR, you are all set to explore the ocean of Open Source!!
+
+
+
+### After making your 1st PR, you are all set to explore the ocean of Open Source!!
+
+### So here are the resource to start with.  
+
+    https://github.com/mungell/awesome-for-beginners
+    https://goodfirstissues.com/
+
