@@ -3,9 +3,9 @@
 ### Here is what you are going to do in next 2 hours. Choose a category under which you belong and start coding! 
 
 ### Pre-Requisites:
-       - Create a folder by your name
-       - Create sub-folders of the projects you create
-       - push the main folder to the `Hack-It` Repository.
+       - Create a folder by your name.
+       - Create sub-folders of the projects you create.
+       - Push the main folder to the Repository after certain commits or after each project.
 
 ### 1. Absolute beginner( non coders)-Individual : 
  
