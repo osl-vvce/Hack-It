@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #06224a;
+  box-sizing: border-box;
+}
+.hero {
+  text-align: center;
+  /* background-color: rgb(250, 247, 242); */
+}
+.title {
+  text-align: center;
+  color: black;
+}
+.col {
+  /* background-color: grey; */
+  display: grid;
+  height: 50vh;
+}
+.card-container {
+  align-self: center;
+  justify-self: center;
+}
+.card {
+  position: relative;
+  top: 5rem;
+  padding: 1rem 7rem 1.5rem 7rem;
+  text-align: left;
+  /* width: auto; */
+  background-color: rgba(245, 245, 245, 0.815);
+  border-radius: 5px;
+  display: grid;
+  /* background: rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  /* margin-bottom: 5rem; */
+  /* border-radius: 10px; */
+}
+.card h4 {
+  color: red;
+  margin-top: 0;
+  text-align: center;
+  display: none;
+}
+#loan-cal {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+}
+.col-1 {
+  width: 100px;
+  background-color: white;
+}
+.row {
+  margin: 5px;
+}
+.card-container .card input {
+  width: 15rem;
+  height: 2rem;
+  /* margin-left: 1rem; */
+}
+label .fa {
+  width: 1.2rem;
+}
+.result-row {
+  margin-top: 1rem;
+}
+.result-row h2 {
+  text-align: center;
+}
+.card-container .card .result-row input {
+  height: 1.5rem;
+  text-align: center;
+  border-width: 1px;
+  border: none;
+}
+.loader {
+  margin: 4rem 0 2rem 0;
+  display: grid;
+  /* margin-top: 4rem; */
+}
+.loader {
+  align-self: center;
+  justify-self: center;
+}
+.loader,
+.result-row {
+  display: none;
+
+}
