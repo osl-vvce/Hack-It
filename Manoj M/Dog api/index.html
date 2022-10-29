@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dog api</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div style="text-align: center;" class="title">
+      <h2>Fetch dog photos</h2>
+    </div>
+    <div class="container">
+      <div class="dog-imgs">
+        <!-- <img src="#" alt="dog-img" class="dog-img"/> -->
+      </div>
+      <div  class="btn-filter">
+        <select name="todo-select" class="filter-dog">
+          <option value="random">Random</option>
+          <option value="affenpinscher" id="affenpinscher">Affenpinscher</option>
+          <option value="bulldog">Bulldog</option>
+          <option value="doberman">Doberman</option>
+          <option value="sheepdog">Sheepdog</option>
+        </select>
+        <button id="fetch" onclick="fetchDogPics()">
+          fetch random dog pic
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
