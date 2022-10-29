@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.fontawesome.com/0931702386.js"></script>
+    <link rel="stylesheet" href="loan-cal.css" />
+    <title>Loan calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="col co1-1">
+          <div class="card-container">
+            <div class="card">
+              <h1 class="title">Loan calculator</h1>
+              <h4>Please enter valid values</h4>
+              <form id="loan-cal">
+                <div class="row row-1">
+                  <label for="amount">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                  </label>
+                  <input type="number" id="amount" placeholder="Amount" />
+                </div>
+                <div class="row row-2">
+                  <label for="intrest">
+                    <i class="fa fa-percent" aria-hidden="true"></i>
+                  </label>
+                  <input type="number" id="intrest" placeholder="Intrest(%)" />
+                </div>
+                <div class="row row-3">
+                  <label for="year-repay">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                  </label>
+                  <input
+                    type="number"
+                    id="year-repay"
+                    placeholder="Years to repay"
+                  />
+                </div>
+                <div class="row row-4">
+                  <input type="submit" value="Calculate" class="cal-amt" />
+                </div>
+              </form>
+              <!-- loader gif-->
+              <div class="loader">
+                <div id="loading">
+                  <img src="img/loader.gif" alt="" />
+                </div>
+              </div>
+              <!-- loader gif-->
+
+              <div class="result-row">
+                <hr />
+                <h2>Results</h2>
+                <div class="row row-5">
+                  <label for="month-pay">
+                    <span>Monthly Payment:</span>
+                  </label>
+                  <input type="number" id="month-pay" disabled />
+                </div>
+                <div class="row row-6">
+                  <label for="year-pay">
+                    <span>Yearly payment:</span>
+                  </label>
+                  <input type="number" id="year-pay" disabled />
+                </div>
+                <div class="row row-7">
+                  <label for="total-pay">
+                    <span>Total payment:</span>
+                  </label>
+                  <input type="number" id="total-pay" disabled />
+                </div>
+                <div class="row row-8">
+                  <label for="total-int">
+                    <span>Total intrest:</span>
+                  </label>
+                  <input type="number" id="total-int" disabled />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="loan-cal.js"></script>
+</html>
