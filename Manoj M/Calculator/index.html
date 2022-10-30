@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="./C:/Users/hp/AppData/Roaming/npm/node_modules/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="hero">
+      <header>
+        <h1>Calculator</h1>
+      </header>
+      <main>
+        <div class="calci">
+          <section class="error-msg">
+            <span>Error</span>
+          </section>
+          <section class="display">
+            <p id="cur"></p>
+            <p id="pre"></p>
+          </section>
+          <table>
+            <tr>
+              <td>
+                <button class="key" onclick="clr()" id="del-last">AC</button>
+              </td>
+              <td>
+                <button class="key" onclick="dellast()" id="clear">C</button>
+              </td>
+              <td>
+                <button class="key operator" onclick='disp("/")' id="divide">
+                  /
+                </button>
+              </td>
+              <td>
+                <button class="key operator" onclick='disp("*")' id="mul">
+                  *
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button class="key operand" onclick='disp("7")' id="seven">7</button>
+              </td>
+              <td>
+                <button class="key operand" onclick='disp("8")' id="eight">8</button>
+              </td>
+              <td>
+                <button class="key operand" onclick='disp("9")' id="nine">9</button>
+              </td>
+              <td>
+                <button class="key operator" onclick='disp("-")' id="minus">
+                  -
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button class="key operand" onclick='disp("4")' id="four">4</button>
+              </td>
+              <td>
+                <button class="key operand" onclick='disp("5")' id="five">5</button>
+              </td>
+              <td>
+                <button class="key operand" onclick='disp("6")' id="six">6</button>
+              </td>
+              <td>
+                <button class="key operator" onclick='disp("+")' id="plus">
+                  +
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button class="key operand" onclick='disp("3")' id="three">3</button>
+              </td>
+              <td>
+                <button class="key operand" onclick='disp("2")' id="two">2</button>
+              </td>
+              <td>
+                <button class="key operand" onclick='disp("1")' id="one">1</button>
+              </td>
+              <td>
+                <button class="key" onclick='disp("%"), percent()' id="percent">%</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button class="key operand" onclick='disp("00")' id="2-zero">00</button>
+              </td>
+              <td>
+                <button class="key operand" onclick='disp("0")' id="zero">0</button>
+              </td>
+              <td>
+                <button class="key operand" onclick='disp(".")' id="decimal">.</button>
+              </td>
+              <td>
+                <button class="key" onclick="evalExp()" id="equals">=</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
